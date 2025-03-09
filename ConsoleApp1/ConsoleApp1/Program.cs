@@ -2,12 +2,12 @@
 {
     public static double ObliczSrednia(int[] liczby)
     {
-        int suma = 0;
+        int SDa = 0;
         foreach (int liczba in liczby)
         {
-            suma += liczba;
+            SDa += liczba;
         }
-        return (double)suma / liczby.Length;
+        return (double)SDa / liczby.Length;
     }
     public static int ObliczMax(int[] liczby)
     {
