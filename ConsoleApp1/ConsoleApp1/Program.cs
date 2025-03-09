@@ -7,7 +7,7 @@
         {
             SDa += liczba;
         }
-        return (double)SDa / liczby.Length;
+        return (double)suma / liczby.Length;
     }
     public static int ObliczMax(int[] liczby)
     {
