@@ -9,6 +9,15 @@
         }
         return (double)suma / liczby.Length;
     }
+    public static int ObliczMax(int[] liczby)
+    {
+        int max = liczby[0];
+        foreach (int liczba in liczby)
+        {
+            if (max < liczba) max = liczba;
+        }
+        return max;
+    }
 
     static void Main()
     {
